@@ -57,9 +57,36 @@ The application is built on a modern, scalable foundation using the Flux pattern
 
 For architecture details, design patterns used and aplication flow, please see the [Architecture Documentation](Architecture.md).
 ### Design Documents
-* [ER Diagram](erd.png)
-* [Data Flow Diagram](dfd.png)
-* [System Architecture](system_architecture.png)
+<div class="image-gallery">
+  <div class="image-item">
+    <a href="./docs/images/architecture-hd.png" target="_blank">
+      <img src="system_architecture.png" 
+           alt="System Architecture" 
+           width="280">
+      <div class="image-caption">System Architecture</div>
+    </a>
+  </div>
+
+  <div class="image-item">
+    <a href="./docs/images/database-hd.png" target="_blank">
+      <img src="Erd.png" 
+           alt="ER diagram" 
+           width="280">
+      <div class="image-caption">ER Diagram</div>
+    </a>
+  </div>
+
+  <div class="image-item">
+    <a href="./docs/images/flow-hd.png" target="_blank">
+      <img src="dfd.png" 
+           alt="Data Flow" 
+           width="280">
+      <div class="image-caption">Data Flow Diagram</div>
+    </a>
+  </div>
+</div>
+
+
 ## 🛠️ Tech Stack
 
 * **Front-End:** React 19, Vite
