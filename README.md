@@ -52,6 +52,11 @@ This table explicitly details how each original project requirement was successf
 * **📊 Review Dashboard:** A comprehensive dashboard lists all candidates, their scores, and AI-generated summaries. Clicking a candidate opens a detailed modal with the full Q&A history.
 * **📱 Responsive Design:** The UI is fully responsive, providing an excellent experience on both desktop and mobile devices.
 
+## 🏛️ Architecture & Design
+The application is built on a modern, scalable foundation using the Flux pattern (via Redux) and a clear layered architecture. Key design patterns like Observer, Command, and a State Machine are used to ensure separation of concerns and maintainable code.
+
+For a detailed breakdown of the architecture and visual diagrams, please see the Architecture Documentation.
+
 ## 🛠️ Tech Stack
 
 * **Front-End:** React 19, Vite
