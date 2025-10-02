@@ -91,3 +91,81 @@ IDLE → PARSING → AWAITING_CONFIRM → IN_PROGRESS → COMPLETED
 ### 2.5. Factory Pattern
 
 Redux Toolkit's `createAsyncThunk` acts as a factory for creating complex asynchronous operations (like starting an interview session), abstracting away the boilerplate of handling promise lifecycle actions.
+
+# How the code works(Appliation Flow)
+
+This document outlines the complete, four-phase application flow for the AI-powered interview platform, from the initial resume upload to the final results summarization. Each phase is designed to be a seamless step in the automated screening process.
+
+---
+
+## Phase 1: Resume Upload & Parsing
+
+This initial phase handles the candidate's entry into the system. The user begins by uploading their resume, which is then automatically parsed to extract key contact information, setting the stage for the interview.
+
+The process is as follows: A user uploads a **PDF** or **DOCX** file. This action triggers a Redux thunk, which calls a dedicated resume parsing service. This service uses **regular expressions (regex)** to identify and extract the candidate's name, email address, and phone number. Once the data is extracted, the application's state is updated, and a confirmation modal appears, presenting the parsed information to the user for verification.
+
+```mermaid
+graph TD
+    A[User] -->|Uploads Resume| B[React Frontend]
+    B -->|Dispatches Action| C[Redux Store]
+    C -->|Calls Service| D[Resume Parser]
+    D -->|Extracts Data| E[Candidate Data]
+    E -->|Updates State| C
+    C -->|Shows UI| F[Confirmation]
+```
+
+---
+
+## Phase 2: Interview Initialization
+
+Once the candidate's details are confirmed, this phase creates the formal interview session. It generates a unique identity for the candidate and fetches a tailored set of questions from the AI service to begin the assessment.
+
+The flow begins when the user clicks "confirm" in the modal. A new candidate object is created in the system, complete with a **unique identifier (UUID)**. A Redux thunk is then dispatched to initiate the interview session. This involves an asynchronous call to a **Google AI service**, which generates a structured set of interview questions: **two easy, two medium, and two hard**. Finally, the application state is updated with these questions, and the timer for the first question is initialized, officially starting the interview.
+
+```mermaid
+graph TD
+    A[User] -->|Confirms Details| B[React Frontend]
+    B -->|Dispatches Action| C[Redux Store]
+    C -->|Creates Candidate| D[Candidate Profile]
+    C -->|Calls AI Service| E[AI Service]
+    E -->|Generates Questions| F[Interview Questions]
+    F -->|Updates State| C
+    C -->|Starts Interview| G[Display Question & Timer]
+```
+
+---
+
+## Phase 3: The Interview Loop
+
+This is the core interactive phase of the application where the candidate answers questions under timed conditions. The system cycles through each question, capturing the candidate's response, evaluating it in real-time, and progressing to the next challenge.
+
+For each question, a **countdown timer** is displayed. The candidate types their answer into a **Tiptap rich-text editor**. When the user submits their answer or the timer expires, the response is sent to the AI evaluation service along with the original question. The AI analyzes the answer and returns a **score** and constructive **feedback**. This evaluation data is stored, the system moves to the next question, and the timer is reset accordingly. This loop continues until all questions have been answered.
+
+```mermaid
+graph LR
+    A[Display Question] --> B[User Types Answer]
+    B -->|Submits| C[Redux Store]
+    C -->|Calls AI| D[AI Evaluation]
+    D -->|Returns Score| C
+    C -->|Next Question| A
+```
+
+---
+
+## Phase 4: Completion & Summarization
+
+The final phase concludes the interview process. After the last question is answered, the system aggregates all the data, generates a final score and a comprehensive performance summary, and updates the recruiter's dashboard.
+
+This phase is triggered automatically when the `currentQuestionIndex` indicates that the last question has been completed. The interview `status` is set to **'completed'**, which in turn triggers a final Redux thunk. This thunk calls an AI service to process all the collected answers, scores, and feedback. The AI generates a holistic **AI summary** of the candidate's performance and calculates a **final average score**. This summary and score are then used to update the candidate's record, and the results are displayed in a summary card on the dashboard for the recruiter to review.
+
+```mermaid
+graph TD
+    A[Last Question] -->|Sets completed| B[React Frontend]
+    B -->|Dispatches Action| C[Redux Store]
+    C -->|Calls AI Service| D[AI Summary Service]
+    D -->|Returns Results| E[Final Results]
+    E -->|Updates State| C
+    C -->|Shows Results| F[Results Dashboard]
+```
+
+
