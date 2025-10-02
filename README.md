@@ -59,7 +59,7 @@ For architecture details, design patterns used and aplication flow, please see t
 ### Design Documents
 <div class="image-gallery">
   <div class="image-item">
-    <a href="./docs/images/architecture-hd.png" target="_blank">
+    <a href="system_architecture.png" target="_blank">
       <img src="system_architecture.png" 
            alt="System Architecture" 
            width="280">
@@ -68,7 +68,7 @@ For architecture details, design patterns used and aplication flow, please see t
   </div>
 
   <div class="image-item">
-    <a href="./docs/images/database-hd.png" target="_blank">
+    <a href="Erd.png" target="_blank">
       <img src="Erd.png" 
            alt="ER diagram" 
            width="280">
@@ -77,7 +77,7 @@ For architecture details, design patterns used and aplication flow, please see t
   </div>
 
   <div class="image-item">
-    <a href="./docs/images/flow-hd.png" target="_blank">
+    <a href="dfd.png" target="_blank">
       <img src="dfd.png" 
            alt="Data Flow" 
            width="280">
