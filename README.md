@@ -52,40 +52,10 @@ This table explicitly details how each original project requirement was successf
 * **📊 Review Dashboard:** A comprehensive dashboard lists all candidates, their scores, and AI-generated summaries. Clicking a candidate opens a detailed modal with the full Q&A history.
 * **📱 Responsive Design:** The UI is fully responsive, providing an excellent experience on both desktop and mobile devices.
 
-## 🏛️ Architecture & Design Docs
+## 🏛️ Architecture & Design
 The application is built on a modern, scalable foundation using the Flux pattern (via Redux) and a clear layered architecture. Key design patterns like Observer, Command, and a State Machine are used to ensure separation of concerns and maintainable code.
 
 For architecture details, design patterns used and aplication flow, please see the [Architecture Documentation](Architecture.md).
-### Design Documents
-<div class="image-gallery">
-  <div class="image-item">
-    <a href="system_architecture.png" target="_blank">
-      <img src="system_architecture.png" 
-           alt="System Architecture" 
-           width="280">
-      <div class="image-caption">System Architecture</div>
-    </a>
-  </div>
-
-  <div class="image-item">
-    <a href="Erd.png" target="_blank">
-      <img src="Erd.png" 
-           alt="ER diagram" 
-           width="280">
-      <div class="image-caption">ER Diagram</div>
-    </a>
-  </div>
-
-  <div class="image-item">
-    <a href="dfd.png" target="_blank">
-      <img src="dfd.png" 
-           alt="Data Flow" 
-           width="280">
-      <div class="image-caption">Data Flow Diagram</div>
-    </a>
-  </div>
-</div>
-
 
 ## 🛠️ Tech Stack
 
