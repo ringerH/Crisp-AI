@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNNTAsNSBDMjUuMSw1IDUsMjUuMSA1LDUwIEM1LDc0LjkgMjUuMSw5NSA1MCw5NSBDNTcuNSw5NSA2NC41LDkzLjEgNzAuNCw4OS44IEw4NSw5NSBMNzkuOCw4MC40IEM4OS41LDcyLjUgOTUsNjEuOCA5NSw1MCBDOTUsMjUuMSA3NC45LDUgNTAsNSBaIE01MCwyNSBDNTQuMSwyNSA1Ny41LDI4LjQgNTcuNSwzMi41IEM1Ny41LDM2LjYgNTQuMSw0MCA1MCw0MCBDNDUuOSw0MCA0Mi41LDM2LjYgNDIuNSwzMi41IEM0Mi41LDI4LjQgNDUuOSwyNSA1MCwyNSBaIE0zMi41LDUyLjUgQzM2LjYsNTIuNSA0MCw1NS45IDQwLDYwIEM0MCw2NC4xIDM2LjYsNjcuNSAzMi41LDY3LjUgQzI4LjQsNjcuNSAyNSw2NC4xIDI1LDYwIEMyNSw1NS45IDI4LjQsNTIuNSAzMi41LDUyLjUgWiBNNjcuNSw1Mi41IEM3MS42LDUyLjUgNzUsNTUuOSA3NSw2MCBDNzUsNjQuMSA3MS42LDY3LjUgNjcuNSw2Ny41IEM2My40LDY3LjUgNjAsNjQuMSA2MCw2MCBDNjAsNTUuOSA2My40LDUyLjUgNjcuNSw1Mi41IFoiIGZpbGw9IiMyZDM3NDgiLz48L3N2Zz4=" alt="Crisp AI Logo" width="100">
+  <img src="logo.svg width="100">
   <h1 style="font-size: 2.5rem; border-bottom: none;">Crisp AI Interview Assistant</h1>
   <p>An intelligent, client-side platform for practicing technical interviews, powered by Google's Gemini API.</p>
   <a href="https://crisp-ai-khaki.vercel.app/" target="_blank">
