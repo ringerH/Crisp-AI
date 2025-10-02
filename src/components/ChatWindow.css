@@ -1,0 +1,21 @@
+
+.tiptap {
+    border: 1px solid #d9d9d9;
+    border-radius: 0 0 6px 6px;
+    padding: 10px;
+    min-height: 120px;
+    outline: none;
+  }
+  
+  .tiptap:focus-within {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  
+  .tiptap p {
+    margin: 0;
+  }
+  
+  .tiptap ul, .tiptap ol {
+    padding-left: 20px;
+  }
