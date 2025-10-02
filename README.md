@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50,5 C25.1,5 5,25.1 5,50 C5,74.9 25.1,95 50,95 C57.5,95 64.5,93.1 70.4,89.8 L85,95 L79.8,80.4 C89.5,72.5 95,61.8 95,50 C95,25.1 74.9,5 50,5 Z M50,25 C54.1,25 57.5,28.4 57.5,32.5 C57.5,36.6 54.1,40 50,40 C45.9,40 42.5,36.6 42.5,32.5 C42.5,28.4 45.9,25 50,25 Z M32.5,52.5 C36.6,52.5 40,55.9 40,60 C40,64.1 36.6,67.5 32.5,67.5 C28.4,67.5 25,64.1 25,60 C25,55.9 28.4,52.5 32.5,52.5 Z M67.5,52.5 C71.6,52.5 75,55.9 75,60 C75,64.1 71.6,67.5 67.5,67.5 C63.4,67.5 60,64.1 60,60 C60,55.9 63.4,52.5 67.5,52.5 Z' fill='%232d3748'/%3E%3C/svg%3E" alt="Crisp AI Logo" width="100">
+  <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20d%3D%22M50%2C5%20C25.1%2C5%205%2C25.1%205%2C50%20C5%2C74.9%2025.1%2C95%2050%2C95%20C57.5%2C95%2064.5%2C93.1%2070.4%2C89.8%20L85%2C95%20L79.8%2C80.4%20C89.5%2C72.5%2095%2C61.8%2095%2C50%20C95%2C25.1%2074.9%2C5%2050%2C5%20Z%20M50%2C25%20C54.1%2C25%2057.5%2C28.4%2057.5%2C32.5%20C57.5%2C36.6%2054.1%2C40%2050%2C40%20C45.9%2C40%2042.5%2C36.6%2042.5%2C32.5%20C42.5%2C28.4%2045.9%2C25%2050%2C25%20Z%20M32.5%2C52.5%20C36.6%2C52.5%2040%2C55.9%2040%2C60%20C40%2C64.1%2036.6%2C67.5%2032.5%2C67.5%20C28.4%2C67.5%2025%2C64.1%2025%2C60%20C25%2C55.9%2028.4%2C52.5%2032.5%2C52.5%20Z%20M67.5%2C52.5%20C71.6%2C52.5%2075%2C55.9%2075%2C60%20C75%2C64.1%2071.6%2C67.5%2067.5%2C67.5%20C63.4%2C67.5%2060%2C64.1%2060%2C60%20C60%2C55.9%2063.4%2C52.5%2067.5%2C52.5%20Z%22%20fill%3D%22%232d3748%22%2F%3E%3C%2Fsvg%3E" alt="Crisp AI Logo" width="100">
   <h1 style="font-size: 2.5rem; border-bottom: none;">Crisp AI Interview Assistant</h1>
   <p>An intelligent, client-side platform for practicing technical interviews, powered by Google's Gemini API.</p>
   <a href="https://crisp-ai-khaki.vercel.app/" target="_blank">
@@ -74,7 +74,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/ringerH/crisp-ai-assistant.git](https://github.com/ringerH/crisp-ai-assistant.git)
+    git clone https://github.com/ringerH/crisp-ai-assistant.git
     ```
 
 2.  **Navigate to the project directory:**
