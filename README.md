@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNNTAsNSBDMjUuMSw1IDUsMjUuMSA1LDUwIEM1LDc0LjkgMjUuMSw5NSA1MCw5NSBDNTcuNSw5NSA2NC41LDkzLjEgNzAuNCw4OS44IEw4NSw5NSBMNzkuOCw4MC40IEM4OS41LDcyLjUgOTUsNjEuOCA5NSw1MCBDOTUsMjUuM
+  <img src="logo.svg" alt="Crisp AI Logo" width="100">
   <h1 style="font-size: 2.5rem; border-bottom: none;">Crisp AI Interview Assistant</h1>
   <p>An intelligent, client-side platform for practicing technical interviews, powered by Google's Gemini API.</p>
   <a href="https://crisp-ai-khaki.vercel.app/" target="_blank">
