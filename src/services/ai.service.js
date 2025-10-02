@@ -73,10 +73,10 @@ export const generateFinalSummary = async (answers) => {
   return callGenerativeModel(prompt, false);
 };
 
-/*
-MOCK AI services
 
-//import { v4 as uuidv4 } from 'uuid';
+//MOCK AI services
+/*
+import { v4 as uuidv4 } from 'uuid';
 const questionBank = [
     { difficulty: "Easy", text: "What is the difference between `let` and `const` in JavaScript?" },
     { difficulty: "Easy", text: "Explain the concept of component state in React." },
