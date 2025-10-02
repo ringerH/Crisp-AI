@@ -55,7 +55,7 @@ This table explicitly details how each original project requirement was successf
 ## 🏛️ Architecture & Design
 The application is built on a modern, scalable foundation using the Flux pattern (via Redux) and a clear layered architecture. Key design patterns like Observer, Command, and a State Machine are used to ensure separation of concerns and maintainable code.
 
-For a detailed breakdown of the architecture and visual diagrams, please see the Architecture Documentation.
+For a detailed breakdown of the architecture and visual diagrams, please see the [Architecture Documentation](./design/flow.md).
 
 ## 🛠️ Tech Stack
 
