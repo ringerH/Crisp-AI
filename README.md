@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50,5 C25.1,5 5,25.1 5,50 C5,74.9 25.1,95 50,95 C57.5,95 64.5,93.1 70.4,89.8 L85,95 L79.8,80.4 C89.5,72.5 95,61.8 95,50 C95,25.1 74.9,5 50,5 Z M50,25 C54.1,25 57.5,28.4 57.5,32.5 C57.5,36.6 54.1,40 50,40 C45.9,40 42.5,36.6 42.5,32.5 C42.5,28.4 45.9,25 50,25 Z M32.5,52.5 C36.6,52.5 40,55.9 40,60 C40,64.1 36.6,67.5 32.5,67.5 C28.4,67.5 25,64.1 25,60 C25,55.9 28.4,52.5 32.5,52.5 Z M67.5,52.5 C71.6,52.5 75,55.9 75,60 C75,64.1 71.6,67.5 67.5,67.5 C63.4,67.5 60,64.1 60,60 C60,55.9 63.4,52.5 67.5,52.5 Z' fill='%232d3748' width="100"/%3E%3C/svg%3E" alt="Crisp AI Logo">
+  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50,5 C25.1,5 5,25.1 5,50 C5,74.9 25.1,95 50,95 C57.5,95 64.5,93.1 70.4,89.8 L85,95 L79.8,80.4 C89.5,72.5 95,61.8 95,50 C95,25.1 74.9,5 50,5 Z M50,25 C54.1,25 57.5,28.4 57.5,32.5 C57.5,36.6 54.1,40 50,40 C45.9,40 42.5,36.6 42.5,32.5 C42.5,28.4 45.9,25 50,25 Z M32.5,52.5 C36.6,52.5 40,55.9 40,60 C40,64.1 36.6,67.5 32.5,67.5 C28.4,67.5 25,64.1 25,60 C25,55.9 28.4,52.5 32.5,52.5 Z M67.5,52.5 C71.6,52.5 75,55.9 75,60 C75,64.1 71.6,67.5 67.5,67.5 C63.4,67.5 60,64.1 60,60 C60,55.9 63.4,52.5 67.5,52.5 Z' fill='%232d3748'/%3E%3C/svg%3E" alt="Crisp AI Logo" width="100">
   <h1 style="font-size: 2.5rem; border-bottom: none;">Crisp AI Interview Assistant</h1>
   <p>An intelligent, client-side platform for practicing technical interviews, powered by Google's Gemini API.</p>
   <a href="https://crisp-ai-khaki.vercel.app/" target="_blank">
@@ -17,8 +17,6 @@
 </div>
 
 <br />
-
-![Live Application](https://placehold.co/1200x630/e2e8f0/2d3748/png?text=Crisp+App+Demo&font=inter)
 
 ## 📋 About The Project
 
