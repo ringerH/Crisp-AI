@@ -101,32 +101,92 @@ AI Integration: Google Gemini Pro via @google/generative-ai
 
 Deployment: Vercel
 
-🚀 Getting Started
+## 🚀 Getting Started
+
+
+
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
-Node.js (v18 or later)
 
-npm or yarn
 
-Installation
-1.  Clone the repository:
-    sh     git clone [https://github.com/ringerH/crisp-ai-assistant.git](https://github.com/ringerH/crisp-ai-assistant.git)     
+### Prerequisites
 
-2.  Navigate to the project directory:
-    sh     cd crisp-ai-assistant     
 
-3.  Install NPM packages:
-    sh     npm install     
 
-4.  Set up your environment variables:
-    * Create a .env.local file in the root of the project.
+* Node.js (v18 or later)
+
+* npm or yarn
+
+
+
+### Installation
+
+
+
+1.  **Clone the repository:**
+
+    ```sh
+
+    git clone https://github.com/ringerH/crisp-ai-assistant.git
+
+    ```
+
+
+
+2.  **Navigate to the project directory:**
+
+    ```sh
+
+    cd crisp-ai-assistant
+
+    ```
+
+
+
+3.  **Install NPM packages:**
+
+    ```sh
+
+    npm install
+
+    ```
+
+
+
+4.  **Set up your environment variables:**
+
+    * Create a `.env.local` file in the root of the project.
+
     * Add your Google AI Studio API key:
-        env         VITE_GEMINI_API_KEY="YourSecretApiKeyGoesHere"         
 
-5.  Run the development server:
-    sh     npm run dev     
-    Your application should now be running on http://localhost:5173.
+        ```env
 
-🌐 Deployment
-This project is deployed on Vercel. The deployment process is automated. The only manual step required is to add the VITE_GEMINI_API_KEY as an Environment Variable in the Vercel project settings to ensure the live application can access the AI service.
+        VITE_GEMINI_API_KEY="YourSecretApiKeyGoesHere"
+
+        ```
+
+
+
+5.  **Run the development server:**
+
+    ```sh
+
+    npm run dev
+
+    ```
+
+    Your application should now be running on `http://localhost:5173`.
+
+
+
+## 🌐 Deployment
+
+
+
+This project is deployed on **Vercel**. The deployment process is automated. The only manual step required is to add the `VITE_GEMINI_API_KEY` as an Environment Variable in the Vercel project settings to ensure the live application can access the AI service.
+
+
+
+
+
+this is the current readme.md file, now i want to add the design aids on a separate md file but will be shown together or which ever way it is done
